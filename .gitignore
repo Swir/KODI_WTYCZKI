@@ -17,6 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+SYNCHRONIZACJA.sh
+SYNCHRONIZACJA.SH
 # =========================
 # Operating System Files
 # =========================
