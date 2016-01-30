@@ -5,8 +5,8 @@
 			version="3.0.2" 
 			provider-name="..::noVak::..">
 		<extension point="xbmc.addon.repository" name="Polskie Wtyczki - Repozytorium">
-			<info compressed="true">https://raw.githubusercontent.com/neopack1/KODI_WTYCZKI/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/neopack1/KODI_WTYCZKI/master/addons.xml.md5</checksum>
+			<info compressed="true">https://raw.githubusercontent.com/neopack1/KODI_WTYCZKI/master/md5/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/neopack1/KODI_WTYCZKI/master/md5/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/neopack1/KODI_WTYCZKI/master</datadir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
