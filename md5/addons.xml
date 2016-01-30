@@ -35,24 +35,22 @@
 		<platform>all</platform>
 	  </extension>
 	</addon>
-<addon id="wtyczka.telewizja.polska"
- 		name="   [COLOR deepskyblue][B]TELE-WIZJA POLSKA[/B][/COLOR]   "
- 		version="3.1.3"
- 		provider-name="..::noVak::..">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.tvnplayer" version="1.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Live Streams From Poland</summary>
-		<description>[COLOR yellow]MASTER MEDIA POLSKA TELEWIZJA[/COLOR][CR][CR]Wtyczka dająca dostęp do polskich kanałów telewizyjnych, radiowych oraz innych serwisów wideo.</description>
-		<platform>all</platform>
-		<license>GNU 2.0 - GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<email>neopack1@gmail.com</email>
-	</extension>
-</addon>
+	<addon id="wtyczka.telewizja.polska" name="  [COLOR gold]TELE-WIZJA POLSKA[/COLOR]" version="3.1.3" provider-name="..::noVak::..">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.tvnplayer" version="1.0.0"/>
+			
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Live Streams From Poland</summary>
+			<description>[COLOR yellow]MASTER MEDIA POLSKA TELEWIZJA[/COLOR][CR][CR]Wtyczka dająca dostęp do polskich kanałów telewizyjnych, radiowych oraz innych serwisów wideo.[CR][CR][COLOR darkgrey]WYKORZYSTANE MATERIAŁY: [CR]- logotypy -> mods-kodi.pl, sd-xbmc [CR]- TVN Player -> kod źródłowy od SMUTO[/COLOR][CR]Pozostałe wykonanie samodzielne dzięki pomysłom i pomocy wielu osób.[CR][CR][COLOR gold]PayPal - neopack1@gmail.com   ;)[/COLOR]</description>
+			<platform>all</platform>
+			<license>GNU 2.0 - GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<email>neopack1@gmail.com</email>
+		</extension>
+	</addon>
 
 </addons>
