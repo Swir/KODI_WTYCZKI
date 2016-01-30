@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+	<category label="Menu">
+		<setting type="sep"/>
+		<setting id="grupowanie" type="bool" label="Pokaż kanały telewizyjne posortowane tematycznie a nie alfabetycznie" default="true"/>
+		<setting id="kolorowanie" type="bool" enable="eq(-1,true)" label="Zastosuj odmienne kolory dla każdej z grup tematycznych" default="true"/>
+		<setting id="grupaHD" type="bool" label="Pokaż oddzielne menu zawierające wyłącznie polskie kanały HD  " default="false"/>
+		<setting type="sep"/>
+		<setting id="xxx" type="bool" label="[COLOR orangered]Wyświetlaj materiały erotyczne przeznaczone dla osób pełnoletnich[/COLOR]" default="false"/>
+		<setting type="sep"/>
+		<setting type="lsep" label="   "/>
+		<setting type="lsep" label="   "/>
+		<setting type="lsep" label="    (niektóre z opcji będą wprowadzane dopiero po restarcie wtyczki)"/>
+	</category>
+
+	<category label="Wyświetlanie">
+		<setting type="sep"/>
+		<setting id="widokMain" type="text" label=" Wymuszaj zmianę domyślnego widoku menu głównego" default="500" />
+		<setting id="widok" type="text" label=" Wymuszaj zmianę domyślnego widoku listy kanałów" default="500" />
+		<setting type="lsep" label="[COLOR FF353535] 50 - Lista  |  51 - Szeroka lista  |  500 - Miniatury   (Skórka Confulance)[/COLOR]"/>
+		<setting type="sep"/>
+		<setting id="ikonki" type="text" label="  Wybierz zestaw logotypów (wpisz cyfrę od 0 do 3) " default="1"/>
+		<setting type="lsep" label="[COLOR FF353535] 0 - Szerokie   |   1 - Duże   |   2 - Średnie   |   3 - Małe[/COLOR]"/>
+		<setting type="lsep" label="    (niektóre z opcji będą wprowadzane dopiero po restarcie wtyczki)"/>
+		<setting type="sep"/>
+		<setting label="[B]  Kliknij tutaj aby spróbować wyczyść stare miniatury[/B]" type="action" action="RunScript(special://home/addons/wtyczka.telewizja.polska/resources/lib/clear.py)" />
+
+		<setting type="sep"/>
+	</category>
+<!--
+	<category label="Konta">
+		<setting type="sep"/>
+		<setting type="lsep" label="Pure-Cast.net (Premium)"/>
+		<setting id="email_PC" type="text" label="E-mail" default="" />
+		<setting id="pass_PC" type="text" option="hidden" label="Hasło" default="" />
+		<setting type="sep"/>
+		
+		<setting type="lsep" label="itivi (testowo / zmiany nic nie dają)"/>
+		<setting id="user_itivi" type="text" label="E-mail" default="demo" />
+		<setting id="pass_ivivi" type="text" option="hidden" label="Hasło" default="demopassword" />
+		<setting type="sep"/>         
+
+	</category>
+-->
+<category label="TVN Player">
+		<setting type="sep"/>
+		<setting id="auto_quality" type="bool" label="30042" default="false"/>
+		<setting type="sep" />
+		<setting label="Ustawienia PROXY" type="lsep"/>
+		<setting id="pl_proxy" type="text" label="30040" default=""/>
+		<setting id="pl_proxy_port" type="text" label="30041" default=""/>
+		<setting id="pl_proxy_user" type="text" label="30043" default=""/>
+		<setting id="pl_proxy_pass" type="text" option="hidden" label="30044" default=""/>
+		<setting label="Lista darmowych proxy znajdziesz pod adresem" type="lsep"/>
+		<setting label="[COLOR gold]http://spys.ru/free-proxy-list/PL/[/COLOR]" type="lsep"/>
+		<setting type="sep"/>
+	</category>
+	<category label="Informacje">
+		<setting type="lsep" label="            [COLOR yellow]WITAJ UŻYTKOWNIKU![/COLOR]"/>
+		<setting type="lsep" label="            Na początku chcę Ci podziękować za wybranie mojej wtyczki."/>
+		<setting type="lsep" label="            Życzę Ci przyjemnego i długiego korzystania z tego produktu!"/>
+		<setting type="lsep" label="                Ze swojej strony obiecuję dołożyć wszelkich starań aby  "/>
+		<setting type="lsep" label="                obsługa i funkcje nie sprawiały Ci problemu a zawartość  "/>
+		<setting type="lsep" label="                była ciągle aktualna i na możliwie najwyższym poziomie."/>
+		<setting type="sep"/>
+		<setting type="lsep" label="              http://[COLOR deepskyblue]MODS-KODI.PL[/COLOR]/forum/viewthread.php?thread_id=841"/>
+		<setting type="lsep" label="                                    E-mail:    neopack1@gmail.com"/>
+		<setting type="lsep" label="                                    PayPal:    neopack1@gmail.com"/>
+	</category>
+</settings>

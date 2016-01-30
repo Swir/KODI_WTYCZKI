@@ -1,0 +1,64 @@
+——————————————————————————————————————
+v3.1.3     (2016-01-28)
+
+ - zmiana nazwy pluginu na MASTER-TV Polska Telewizja
+ - dodano dwie metody układania kolejności kanałów
+   1. grupowanie kanałów tematycznie oraz z opcją
+      wyświetlenia każdej z gróp w innym kolorze
+   2. sortowanie alfabetyczne i dla ułatwienia
+      zapamiętania dodane numerowanie kanałów.
+ - dodana możliwość włączenia dodatkowego katalogu 
+   który zawiera wszystkie polskie kanały HD
+ - ogromna ilość nowych kanałów zwłaszcza HD
+ - inne drobne zmiany
+——————————————————————————————————————
+v3.1.2     (2016-01-13)
+
+ - poprawki linków i dodanie nowych
+ - dodana opcja PPV (Pay-Per-View)
+ - poprawki kosmetyczne
+ - optymalizacja kodu
+
+——————————————————————————————————————
+v3.1.0     (2016-01-13)
+
+ - poprawki linków i dodanie kilku nowych
+ - dodany wybór zestawu ikon (Ustawienia)
+ - wyłączony Pure-Cast (chyba strona padła)
+ - listy streamów i kanałów przeniesione na serwer
+   w celu uniknięcia częstych aktualizacji wtyczki
+   (listy kanałów będą aktualizowane na bierząco)
+
+——————————————————————————————————————
+v3.0.8     (2016-01-08)
+
+ - poprawki linków looknij.tv
+ - dodany wybór widoku domyśnego (Ustawienia)
+ - dodany wybór jakośi TVN Player (Ustawienia)
+ - dodana opcja Proxy dla TVN Player (Ustawienia)
+ - dodane kanały tv zagranicznej
+ - dodane kanały YouTube
+ - dodane kanały tv lokalnej
+
+——————————————————————————————————————
+v3.0.7     (2016-01-01)
+
+ - dodana obsługa TVN Player (testowo)
+
+——————————————————————————————————————
+v3.0.5     (2015-12-24)
+
+ - dodana Telewizja zagraniczna
+ - dodane kanały YouTube
+ 
+——————————————————————————————————————
+v3.0.2     (2015-12-24)
+
+ - dodano obsługę Pure-Cast.net
+ - poprawki dotyczące adresów stream'ów
+
+——————————————————————————————————————
+v3.0.0     (2015-12-20)
+
+ - wtyczka udostęniona publicznie
+ - dodano obsｳug・ITIVI (testowo)
